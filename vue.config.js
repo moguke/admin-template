@@ -23,7 +23,7 @@ module.exports = {
    * 然后publicPath应该设置为“/bar/”。
    * 在大多数情况下请使用'/' !!
    * */
-  publicPath: '/',
+  publicPath: './',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',
